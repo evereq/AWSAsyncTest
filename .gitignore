@@ -1,0 +1,6 @@
+*.log
+*.vcproj.*.user
+*.suo
+*.cache
+bin/
+obj/
