@@ -40,6 +40,9 @@ namespace Evereq.AWSAsyncTest
                     ms.Write(bytes, 0, (int)file.Length);
                 }
 
+                // Reset the file stream's position to the starting point
+                ms.Position = 0;
+
                 var putObjectRequest = new PutObjectRequest
                 {
                     CannedACL = S3CannedACL.PublicRead,
@@ -86,6 +89,9 @@ namespace Evereq.AWSAsyncTest
                     file.Read(bytes, 0, (int)file.Length);
                     ms.Write(bytes, 0, (int)file.Length);
                 }
+
+                // Reset the file stream's position to the starting point
+                ms.Position = 0;
 
                 var putObjectRequest = new PutObjectRequest
                 {
