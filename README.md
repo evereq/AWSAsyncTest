@@ -12,3 +12,7 @@ Note: code is not optimized in any way. It was used only to found a breaking cha
 All source code released under MIT License (see LICENSE.txt file), except following files:
 - w.css
 - all NuGet packages have own licenses
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/evereq/awsasynctest/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
